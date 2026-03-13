@@ -1,0 +1,49 @@
+h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+.main-header {
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+  }
+  
+.logo {
+    position: absolute; 
+    left: 50px;
+    margin-top: 30px;
+}
+  
+.logo img {
+    width: 100px;
+    height: auto;
+}
+  
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+  
+.main-nav ul li {
+    margin-right: 95px; 
+}
+  
+.main-nav ul li:last-child {
+    margin-right: 0; 
+}
+  
+.main-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.5s;
+}
+  
+.main-nav a:hover {
+    color: black;
+}
