@@ -1,7 +1,15 @@
+import Advantages from "./components/Advantages";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+      <Header />
+      <Hero />
+      <Advantages />
+      <Footer />
     </div>
   );
 }
