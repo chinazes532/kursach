@@ -31,6 +31,11 @@
     width: 45px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #111;
+}
+
 .nav {
     display: flex;
     align-items: center;

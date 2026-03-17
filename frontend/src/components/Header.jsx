@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import "../styles/Header.css";
 
 const Header = () => {
@@ -10,15 +12,15 @@ const Header = () => {
 
         <div className="logo">
           <img src="/logo.png" alt="logo" />
-          <span>IT School</span>
+          <span><Link to="/">IT School</Link></span>
         </div>
 
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
-          <a href="#">Новости</a>
-          <a href="#">Расписание</a>
-          <a href="#">Стоимость</a>
-          <a href="#">Ведомость</a>
-          <a className="btn" href="#">Консультация</a>
+        <Link to="/news">Новости</Link>
+          <Link to="/schedule">Расписание</Link>
+          <Link to="#">Стоимость</Link>
+          <Link to="#">Ведомость</Link>
+          <Link className="btn" to="#">Консультация</Link>
         </nav>
 
         <div

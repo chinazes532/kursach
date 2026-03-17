@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Hero.css"; 
 
 const Hero = () => {
@@ -7,9 +8,9 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Частная IT-школа программирования</h1>
         <p>Научим создавать сайты, приложения и игры с нуля за 6 месяцев</p>
-        <a href="#consultation" className="hero-button">
+        <Link to="#" className="hero-button">
           Записаться на консультацию
-        </a>
+        </Link>
       </div>
 
       <div className="hero-image">
