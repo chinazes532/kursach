@@ -8,7 +8,7 @@ export default function PriceItem({ item }) {
       <p className='price-desc'>{item.description}</p>
 
       <div className="price-value">
-        {item.price} ₽ в месяц
+        {item.price} ₽/мес.
       </div>
 
       <Link className="btn" to="/consultation">
