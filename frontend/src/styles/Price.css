@@ -1,0 +1,112 @@
+.price {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+  
+.price h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+  
+.price-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+  
+.price-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px 25px;
+    width: 300px;
+  
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.price-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+  
+.price-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.price-desc {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+  
+.price-value {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #2563eb;
+}
+  
+.price-card .btn {
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+  
+.price-card .btn:hover {
+    background: #1d4ed8;
+}
+  
+.price-card.popular {
+    border: 2px solid #2563eb;
+    transform: scale(1.05);
+}
+  
+.price-card.popular::before {
+    content: "Популярный";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+    .price-container {
+      gap: 20px;
+    }
+  
+    .price-card {
+      width: 260px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .price-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .price-card {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .price h1 {
+      font-size: 28px;
+    }
+}

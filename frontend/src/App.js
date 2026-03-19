@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import Schedule from "./pages/Schedule";
+import Price from "./pages/Price";
+import Statement from "./pages/Statement";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/news" element={<News />}></Route>
         <Route path="/schedule" element={<Schedule />}></Route>
+        <Route path="/price" element={<Price />}></Route>
+        <Route path="/statement" element={<Statement />}></Route>
       </Routes>
 
       <Footer />

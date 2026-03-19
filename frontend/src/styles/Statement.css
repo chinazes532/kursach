@@ -1,0 +1,111 @@
+.statement-table {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.statement-table h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #222;
+}
+  
+.statement-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1.5fr;
+    padding: 15px 10px;
+    font-weight: 700;
+    background: #f3f4f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+  
+.statement-row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1.5fr;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    transition: 0.2s;
+}
+  
+.statement-row:hover {
+    background: #fafafa;
+}
+  
+.statement-cell {
+    font-size: 15px;
+    color: #444;
+}
+  
+.statement-cell.course {
+    font-weight: 600;
+    color: #111;
+}
+
+.statement-cell.teacher {
+    color: #666;
+}
+  
+.statement-cell.grade {
+    font-weight: 700;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 8px;
+    width: fit-content;
+}
+  
+.grade-5 {
+    background: #e8f7ee;
+    color: #1a7f37;
+}
+  
+.grade-4 {
+    background: #fff4e5;
+    color: #b45309;
+}
+  
+.grade-3 {
+    background: #ffe8e8;
+    color: #b91c1c;
+}
+  
+.statement-cell.attendance {
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+}
+  
+@media (max-width: 768px) {
+    .statement-header,
+    .statement-row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+  
+    .statement-header {
+      display: none;
+    }
+  
+    .statement-row {
+      background: #fff;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+  
+    .statement-cell {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .statement-cell::before {
+        content: attr();
+        font-size: 12px;
+        color: #999;
+      }
+}

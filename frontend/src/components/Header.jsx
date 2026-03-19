@@ -18,9 +18,9 @@ const Header = () => {
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
         <Link to="/news">Новости</Link>
           <Link to="/schedule">Расписание</Link>
-          <Link to="#">Стоимость</Link>
-          <Link to="#">Ведомость</Link>
-          <Link className="btn" to="#">Консультация</Link>
+          <Link to="/price">Стоимость</Link>
+          <Link to="/statement">Ведомость</Link>
+          <Link className="btn" to="/consultation">Консультация</Link>
         </nav>
 
         <div

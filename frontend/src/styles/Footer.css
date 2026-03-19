@@ -20,6 +20,10 @@
     margin: 0;
     font-size: 26px;
 }
+
+.btn {
+    text-decoration: none;
+}
   
 .footer-logo p {
     margin: 5px 0 0;
