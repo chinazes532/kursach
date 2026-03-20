@@ -8,6 +8,8 @@ import News from "./pages/News";
 import Schedule from "./pages/Schedule";
 import Price from "./pages/Price";
 import Statement from "./pages/Statement";
+import Consult from "./pages/Consult";
+import Politika from "./pages/Politika";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/schedule" element={<Schedule />}></Route>
         <Route path="/price" element={<Price />}></Route>
         <Route path="/statement" element={<Statement />}></Route>
+        <Route path="/consultation" element={<Consult />}></Route>
+        <Route path="/politika_obrabotki" element={<Politika />}></Route>
       </Routes>
 
       <Footer />

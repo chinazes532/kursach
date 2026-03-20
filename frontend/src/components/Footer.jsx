@@ -24,6 +24,9 @@ function Footer() {
         </div>
 
         <div className='footer-bottom'>
+            <p>+79639709320</p>
+            <p>itschool@mail.ru</p>
+            <p>г. Москва ул. Зеленодольская д. 7 к. 7</p> <br />
             <p>© 2026 IT School. Все права защищены.</p>
         </div>
 
