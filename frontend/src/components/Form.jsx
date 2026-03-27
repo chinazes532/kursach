@@ -7,13 +7,8 @@ function Form() {
     <div className='form'>
        <form action="/consultaion" method='POST'>
             <div className="form-input">
-                <label >Ваше имя: </label>
-                <input type="text" placeholder='Иван' required/>
-            </div>
-
-            <div className="form-input">
-                <label >Ваша фамилия: </label>
-                <input type="text" placeholder='Иванов' required/>
+                <label >Ваше фамилия и имя: </label>
+                <input type="text" placeholder='Иванов Иван' required/>
             </div>
 
             <div className="form-input">
