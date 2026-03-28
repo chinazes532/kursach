@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="740c3296-ca56-4d43-8403-31826cfaa724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/api/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/db/models/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/repositories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/repositories/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/schemas/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/services/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/utils/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/api/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/services/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -49,10 +49,8 @@ class SMTPEmailService(AbstractEmailService):
                 with smtplib.SMTP_SSL(self.smtp_host, self.smtp_port) as server:
                     server.login(self.login, self.password)
                     server.send_message(msg)
-                print("Письмо отправлено")
                 return True
-            except Exception as e:
-                print(f"Ошибка отправки email: {e}")
+            except Exception:
                 return False
 
         return await asyncio.to_thread(send_email_sync)
