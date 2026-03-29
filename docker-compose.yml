@@ -21,6 +21,9 @@ services:
     restart: always
     env_file:
       - backend/.env
+    environment:
+      - PYTHONPATH=/app
+    command: python3 -m backend.main
 
   frontend:
     build:
